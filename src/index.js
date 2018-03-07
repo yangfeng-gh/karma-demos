@@ -1,9 +1,7 @@
 function isNum(num) {
     if (typeof num === 'number') {
-        return true;
+        return true
     } else {
-        return false;
+        return false
     }
 }
-
-module.exports = isNum
